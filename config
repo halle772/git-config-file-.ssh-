@@ -1,7 +1,13 @@
 Host github.com
-    HostName github.com
-    User git
-    IdentityFile C:\Users\Comet/.ssh/id_rsa
+   HostName github.com
+   User git
+   IdentityFile C:\Users\aaa/.ssh/id_rsa
+
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519
+  IdentitiesOnly yes
 
     
 Host github-jona.com
