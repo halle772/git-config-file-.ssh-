@@ -1,0 +1,15 @@
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile C:\Users\Comet/.ssh/id_rsa
+
+    
+Host github-jona.com
+    HostName github.com
+    User git
+    IdentityFile /home/polaris/.ssh/id_rsa1
+
+Host github-yuri.com
+    HostName github.com
+    User git
+    IdentityFile /home/polaris/.ssh/id_yuri
